@@ -32,19 +32,17 @@
 	</head>
 
 	<body>
-
 		<div class="reveal">
-
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-        <section data-markdown="slides.md"  
-                 data-separator="^==="  
-                 data-separator-vertical="^---"  
-                 data-separator-notes="^Note:"  
-                 data-charset="iso-8859-15">
-        </section>        
+				<section data-markdown="slides.md"  
+						data-separator="^==="  
+						data-separator-vertical="^---"  
+						data-separator-notes="^Note:"  
+						data-charset="iso-8859-15">
+				</section>  
+				<img src="images/logo.jpg" style="position: absolute; bottom: 0%; right: -20%;">    
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -55,11 +53,39 @@
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
+				controls: false,
 				progress: true,
 				history: true,
 				center: true,
+				slideNumber: "h.v",
 
+				hashOneBasedIndex: true,
+				navigationMode: 'linear',
+
+				shuffle: false,
+				lop: false,
+
+				autoPlayMedia: null,
+				preloadIframes: null,
+
+				autoAnimate: true,
+				autoAnimateMatcher: null,
+				autoAnimateStyles: [
+					'opacity',
+					'color',
+					'background-color',
+					'padding',
+					'font-size',
+					'line-height',
+					'letter-spacing',
+					'border-width',
+					'border-color',
+					'border-radius',
+					'outline',
+					'outline-offset'
+				],
+
+				autoSlide: 0, //10000
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 				// Optional reveal.js plugins
