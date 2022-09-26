@@ -9,7 +9,8 @@ Note: Put down your note here.
 ## Agenda
 + Item 1 <!-- .element: class="fragment" data-fragment-index="1" -->
 + Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
-+ Item 3 <!-- .element: class="fragment" data-fragment-index="2" -->
+---
++ Item 3 <!-- .element: class="fragment" data-fragment-index="1" -->
 + Item 4 <!-- .element: class="fragment" data-fragment-index="2" -->
 Note: Put down your note here.
 ===
